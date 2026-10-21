@@ -1,0 +1,3 @@
+﻿je_group_wic_wonders = {
+	context = country
+}

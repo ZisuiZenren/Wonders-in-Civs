@@ -1,0 +1,490 @@
+﻿urban = {
+	label = label_forested
+	label = label_developed
+	weight = {
+		value = 0.1
+		if = {
+			limit = {
+				exists = state.b:building_urban_center
+			}
+			add = state.b:building_urban_center.level
+			subtract = 5
+			min = 0.1
+			multiply = state.num_provinces
+			divide = 4
+		}
+	}
+	textures = {
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_forbidden_city }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/zijinchen.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_saint_basils_cathedral }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/shenwaxili.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_aerhanbula }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/aerhanbula.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_wnsjunxieku }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/wnsjunxieku.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_xiuishenmiao }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/xiuishenmiao.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_dajinbabuwei }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/dajinbabuwei.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_jinzita }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/jinzita.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_dayuchang }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/dayuchang.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_boergeershan }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/boergeershan.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_doushouchang }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/doushouchang.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_jierwa }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/jierwa.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_sangkelei }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/sangkelei.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_beilunta }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/beilunta.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_xiyindujiaoyisuo }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/xiyindujiaoyisuo.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_luershangu }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/luershangu.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_shenmixieershan }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/shenmixieershan.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_xiongyali }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/xiongyali.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_bailaohui }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/bailaohui.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_xinigejvyuan }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/xinigejvyuan.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_eiffel_tower }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/aifeier.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_angkor_wat }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/wugeku.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_big_ben }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/bigben.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_hagia_sophia }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/shensuofeiya.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+        {
+            weight = {
+                value = 0
+                if = {
+                    limit = {
+                        scope:state = { exists = b:building_cristo_redentor }
+                    }
+                    add = 100
+                }
+            }
+            path = "gfx/state_pictures/jiushijidu.dds"
+			effect = "vfx_entity_ui_state_plains_arid"
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+		{
+			weight = {
+				value = 0
+				if = {
+					limit = {
+						scope:state = {
+							is_in_geographic_region = geographic_region_africa
+						}
+					}
+					add = 1
+				}
+			}
+			path = "gfx/state_pictures/urban_african.dds"
+			effect = "vfx_entity_ui_state_urban_african"
+		}
+		{
+			weight = {
+				value = 0
+				if = {
+					limit = {
+						scope:state = {
+							or = {
+								is_in_geographic_region = geographic_region_middle_east
+								is_in_geographic_region = geographic_region_central_asia_old
+							}
+						}
+					}
+					add = 1
+				}
+			}
+			path = "gfx/state_pictures/urban_arabic.dds"
+			effect = "vfx_entity_ui_state_urban_arabic"
+		}
+		{
+			weight = {
+				value = 0
+				if = {
+					limit = {
+						scope:state = {
+							is_in_geographic_region = geographic_region_india
+						}
+					}
+					add = 1
+				}
+			}
+			path = "gfx/state_pictures/urban_indian.dds"
+			effect = "vfx_entity_ui_state_urban_arabic"
+		}
+		{
+			weight = {
+				value = 0
+				if = {
+					limit = {
+						scope:state = {
+							or = {
+								is_in_geographic_region = geographic_region_japan
+							}
+						}
+					}
+					add = 2
+				}
+			}
+			path = "gfx/state_pictures/urban_japan.dds"
+			effect = "vfx_entity_ui_state_urban_asian"
+		}
+		{
+			weight = {
+				value = 0
+				if = {
+					limit = {
+						scope:state = {
+							or = {
+								is_in_geographic_region = geographic_region_east_asia
+								is_in_geographic_region = geographic_region_south_east_asia
+							}
+						}
+					}
+					add = 1
+				}
+			}
+			path = "gfx/state_pictures/urban_asian.dds"
+			effect = "vfx_entity_ui_state_urban_asian"
+		}
+		{
+			weight = {
+				value = 0
+				if = {
+					limit = {
+						scope:state = {
+							is_subtropic_farmland = yes
+						}
+					}
+					add = 1
+				}
+			}
+			path = "gfx/state_pictures/urban_latin_american.dds"
+			effect = "vfx_entity_ui_state_urban_latin_american"
+		}
+		{
+			weight = {
+				value = 0
+				if = {
+					limit = {
+						scope:state = {
+							is_in_geographic_region = geographic_region_europe
+						}
+					}
+					add = 1
+				}
+			}
+			path = "gfx/state_pictures/urban_european.dds"
+			effect = "vfx_entity_ui_state_urban_european"
+		}
+		# fallback
+		{
+			weight = {
+				value = 0
+				if = {
+					limit = {
+						scope:state = {
+							AND = {
+								is_not_in_geographic_region = geographic_region_europe
+								is_subtropic_farmland = no
+								is_not_in_geographic_region = geographic_region_east_asia
+								is_not_in_geographic_region = geographic_region_south_east_asia
+								is_not_in_geographic_region = geographic_region_middle_east
+								is_not_in_geographic_region = geographic_region_central_asia_old
+								is_not_in_geographic_region = geographic_region_india
+								is_not_in_geographic_region = geographic_region_africa
+							}
+						}
+					}
+					add = 1
+				}
+			}
+			path = "gfx/state_pictures/urban_european.dds"
+			effect = "vfx_entity_ui_state_urban_european"
+		}
+	}
+
+	combat_width = 0.8
+	risk = 0.5
+	created_material = DYNAMIC-Urban_01
+	debug_color = hsv { 0.7 0.3 0.8 }
+
+	pollution_mask_strength = 1.0
+	devastation_mask_strength = 1.0
+}

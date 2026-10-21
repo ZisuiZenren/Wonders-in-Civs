@@ -1,0 +1,52 @@
+﻿
+pm_default_building_mosque_of_djenne = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			interest_group_ig_devout_pol_str_mult = 0.1
+            state_education_access_add = 0.2
+		}
+	}
+
+	building_modifiers = {
+		#workforce_scaled = {
+		#}
+
+		level_scaled = {
+			building_employment_clergymen_add = 500
+		}
+	}
+}
+
+### IP3 Monuments ###
+
+pm_default_building_kaiserforum_4 = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_legitimacy_headofstate_add = 5
+			country_prestige_add = 50
+            state_migration_pull_mult = 0.5
+		}
+	}
+
+	building_modifiers = {
+		#workforce_scaled = {
+		#}
+
+		level_scaled = {
+			building_employment_aristocrats_add = 100
+			building_employment_academics_add = 100
+			building_employment_bureaucrats_add = 200
+		}
+	}
+}
+
+### IP4 Monuments ###
+

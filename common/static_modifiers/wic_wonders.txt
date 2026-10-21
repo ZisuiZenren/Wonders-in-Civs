@@ -1,0 +1,71 @@
+﻿# Wonders in Civs - rewards for completing a wonder (see events/wic_wonders_events.txt)
+
+# --- Alhambra ---
+wic_wonder_aerhanbula_glory = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	country_prestige_add = 100
+	country_influence_add = 25
+}
+
+wic_wonder_aerhanbula_profit = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	state_infrastructure_add = 5
+	state_migration_pull_mult = 0.15
+}
+
+# --- Great Pyramid ---
+wic_wonder_jinzita_glory = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	country_prestige_add = 150
+}
+
+wic_wonder_jinzita_profit = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	state_infrastructure_add = 3
+	state_migration_pull_mult = 0.20
+}
+
+# --- Colosseum ---
+wic_wonder_doushouchang_glory = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	country_prestige_add = 100
+	country_influence_add = 25
+}
+
+wic_wonder_doushouchang_profit = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	state_infrastructure_add = 10
+	state_migration_pull_mult = 0.10
+}
+
+# --- Ruhr Valley ---
+wic_wonder_luershangu_glory = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	country_prestige_add = 75
+}
+
+wic_wonder_luershangu_profit = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	country_construction_add = 10
+	country_tax_income_add = 2000
+}
+
+# --- Sydney Opera House ---
+wic_wonder_xinigejvyuan_glory = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	country_prestige_add = 125
+	country_influence_add = 20
+}
+
+wic_wonder_xinigejvyuan_profit = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	country_tech_spread_mult = 0.10
+}
+
+# --- Humiliation (another country built the wonder first) ---
+# Applied by events/wic_wonders_fail_events.txt
+wic_wonder_lost_race = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	country_prestige_add = -0.5
+}
+

@@ -1,0 +1,100 @@
+﻿l_japanese:
+ building_aerhanbula: "アルハンブラ宮殿"
+ building_wnsjunxieku: "ヴェネツィアの造船所"
+ building_xiuishenmiao: "ウエイ・テオカリ"
+ building_dajinbabuwei: "グレート・ジンバブエ"
+ building_jinzita: "ピラミッド"
+ building_dayuchang: "大浴場"
+ building_boergeershan: "ジェベル・バルカル"
+ building_doushouchang: "コロッセオ"
+ building_jierwa: "キルワ・キシワニ"
+ building_sangkelei: "サンコーレ大学"
+ building_beilunta: "ベレンの塔"
+ building_xiyindujiaoyisuo: "通商院"
+ building_luershangu: "ルール地域"
+ building_shenmixieershan: "モン・サン＝ミシェル"
+ building_xiongyali: "オーサカーツ"
+ building_bailaohui: "ブロードウェイ"
+ building_xinigejvyuan: "シドニー・オペラハウス"
+
+
+ pmg_base_building_aerhanbula: "アルハンブラ宮殿"
+ pm_default_building_aerhanbula: "アルハンブラ宮殿"
+ pmg_base_building_wnsjunxieku: "ヴェネツィアの造船所"
+ pm_default_building_wnsjunxieku: "ヴェネツィアの造船所"
+ pmg_base_building_xiuishenmiao: "ウエイ・テオカリ"
+ pm_default_building_xiuishenmiao: "ウエイ・テオカリ"
+ pmg_base_building_dajinbabuwei: "グレート・ジンバブエ"
+ pm_default_building_dajinbabuwei: "グレート・ジンバブエ"
+ pmg_base_building_jinzita: "ピラミッド"
+ pm_default_building_jinzita: "ピラミッド"
+ pmg_base_building_dayuchang: "大浴場"
+ pm_default_building_dayuchang: "大浴場"
+ pmg_base_building_boergeershan: "ジェベル・バルカル"
+ pm_default_building_boergeershan: "ジェベル・バルカル"
+ pmg_base_building_doushouchang: "コロッセオ"
+ pm_default_building_doushouchang: "コロッセオ"
+ pmg_base_building_jierwa: "キルワ・キシワニ"
+ pm_default_building_jierwa: "キルワ・キシワニ"
+ pmg_base_building_sangkelei: "サンコーレ大学"
+ pm_default_building_sangkelei: "サンコーレ大学"
+ pmg_base_building_beilunta: "ベレンの塔"
+ pm_default_building_beilunta: "ベレンの塔"
+ pmg_base_building_xiyindujiaoyisuo: "通商院"
+ pm_default_building_xiyindujiaoyisuo: "通商院"
+ pmg_base_building_luershangu: "ルール地域"
+ pm_default_building_luershangu: "ルール地域"
+ pmg_base_building_shenmixieershan: "モン・サン＝ミシェル"
+ pm_default_building_shenmixieershan: "モン・サン＝ミシェル"
+ pmg_base_building_xiongyali: "オーサカーツ"
+ pm_default_building_xiongyali: "オーサカーツ"
+ pmg_base_building_bailaohui: "ブロードウェイ"
+ pm_default_building_bailaohui: "ブロードウェイ"
+ pmg_base_building_xinigejvyuan: "シドニー・オペラハウス"
+ pm_default_building_xinigejvyuan: "シドニー・オペラハウス"
+
+
+
+
+
+
+
+
+
+
+ building_aifeier: "エッフェル塔"
+ building_wugeku: "アンコール・ワット"
+ building_bigben: "ビッグ・ベン"
+ building_zijinchen: "紫禁城"
+ building_shensuofeiya: "ハギア・ソフィア"
+ building_shenwaxili: "聖ワシリイ大聖堂"
+ building_ziyounvshen: "自由の女神像"
+
+ pm_default_building_aifeier: "エッフェル塔"
+ pm_default_building_wugeku: "アンコール・ワット"
+ pm_default_building_bigben: "ビッグ・ベン"
+ pm_default_building_zijinchen: "紫禁城"
+ pm_default_building_shensuofeiya: "ハギア・ソフィア"
+ pm_default_building_shenwaxili: "聖ワシリイ大聖堂"
+ pm_default_building_ziyounvshen: "自由の女神像"
+ pm_default_building_jiushijidu: "コルコバードのキリスト像"
+
+
+
+
+
+
+
+
+
+ building_hongchang: "赤の広場"
+ building_tiananmen: "天門"
+ building_zijincheng: "紫禁城"
+ building_donggong: "冬宮"
+ building_aiertamishi: "エルミタージュ美術館"
+ building_budala: "ポタラ宮"
+ building_shenyusuo: "オラクル"
+ building_binmayong: "兵馬俑"
+ building_peitela: "ペトラ"
+ building_maqiubiqiu: "マチュ・ピチュ"
+ building_qiqinicha: "チチェン・イツァ"

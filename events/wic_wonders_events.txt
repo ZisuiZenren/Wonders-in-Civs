@@ -1,0 +1,240 @@
+﻿namespace = wic_wonders
+
+# Completion events for the Wonders in Civs journal entries.
+# Each event is fired by the on_complete of its journal entry.
+
+wic_wonders.1 = {
+	type = country_event
+	placement = scope:wic_wonder_state
+
+	duration = 3
+
+	title = wic_wonders.1.t
+	desc = wic_wonders.1.d
+	flavor = wic_wonders.1.f
+
+	event_image = {
+		video = "unspecific_world_fair"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	immediate = {
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_UPPER_ANDALUSIA
+				has_building = building_aerhanbula
+			}
+			save_scope_as = wic_wonder_state
+		}
+	}
+
+	option = {
+		name = wic_wonders.shared.a
+		default_option = yes
+		add_modifier = {
+			name = wic_wonder_aerhanbula_glory
+			days = normal_modifier_time
+		}
+	}
+
+	option = {
+		name = wic_wonders.shared.b
+		add_treasury = 30000
+		scope:wic_wonder_state = {
+			add_modifier = {
+				name = wic_wonder_aerhanbula_profit
+				days = normal_modifier_time
+			}
+		}
+	}
+}
+
+wic_wonders.2 = {
+	type = country_event
+	placement = scope:wic_wonder_state
+
+	duration = 3
+
+	title = wic_wonders.2.t
+	desc = wic_wonders.2.d
+	flavor = wic_wonders.2.f
+
+	event_image = {
+		video = "unspecific_world_fair"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	immediate = {
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_LOWER_EGYPT
+				has_building = building_jinzita
+			}
+			save_scope_as = wic_wonder_state
+		}
+	}
+
+	option = {
+		name = wic_wonders.shared.a
+		default_option = yes
+		add_modifier = {
+			name = wic_wonder_jinzita_glory
+			days = normal_modifier_time
+		}
+	}
+
+	option = {
+		name = wic_wonders.shared.b
+		add_treasury = 50000
+		scope:wic_wonder_state = {
+			add_modifier = {
+				name = wic_wonder_jinzita_profit
+				days = normal_modifier_time
+			}
+		}
+	}
+}
+
+wic_wonders.3 = {
+	type = country_event
+	placement = scope:wic_wonder_state
+
+	duration = 3
+
+	title = wic_wonders.3.t
+	desc = wic_wonders.3.d
+	flavor = wic_wonders.3.f
+
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	immediate = {
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_LAZIO
+				has_building = building_doushouchang
+			}
+			save_scope_as = wic_wonder_state
+		}
+	}
+
+	option = {
+		name = wic_wonders.shared.a
+		default_option = yes
+		add_modifier = {
+			name = wic_wonder_doushouchang_glory
+			days = normal_modifier_time
+		}
+	}
+
+	option = {
+		name = wic_wonders.shared.b
+		add_treasury = 35000
+		scope:wic_wonder_state = {
+			add_modifier = {
+				name = wic_wonder_doushouchang_profit
+				days = normal_modifier_time
+			}
+		}
+	}
+}
+
+wic_wonders.4 = {
+	type = country_event
+	placement = scope:wic_wonder_state
+
+	duration = 3
+
+	title = wic_wonders.4.t
+	desc = wic_wonders.4.d
+	flavor = wic_wonders.4.f
+
+	event_image = {
+		video = "unspecific_gears_pistons"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	immediate = {
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_HESSE
+				has_building = building_luershangu
+			}
+			save_scope_as = wic_wonder_state
+		}
+	}
+
+	option = {
+		name = wic_wonders.shared.a
+		default_option = yes
+		add_modifier = {
+			name = wic_wonder_luershangu_glory
+			days = normal_modifier_time
+		}
+	}
+
+	option = {
+		name = wic_wonders.shared.b
+		add_treasury = 20000
+		add_modifier = {
+			name = wic_wonder_luershangu_profit
+			days = normal_modifier_time
+		}
+	}
+}
+
+wic_wonders.5 = {
+	type = country_event
+	placement = scope:wic_wonder_state
+
+	duration = 3
+
+	title = wic_wonders.5.t
+	desc = wic_wonders.5.d
+	flavor = wic_wonders.5.f
+
+	event_image = {
+		video = "unspecific_world_fair"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	immediate = {
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_NEW_SOUTH_WALES
+				has_building = building_xinigejvyuan
+			}
+			save_scope_as = wic_wonder_state
+		}
+	}
+
+	option = {
+		name = wic_wonders.shared.a
+		default_option = yes
+		add_modifier = {
+			name = wic_wonder_xinigejvyuan_glory
+			days = normal_modifier_time
+		}
+	}
+
+	option = {
+		name = wic_wonders.shared.b
+		add_treasury = 25000
+		add_modifier = {
+			name = wic_wonder_xinigejvyuan_profit
+			days = normal_modifier_time
+		}
+	}
+}

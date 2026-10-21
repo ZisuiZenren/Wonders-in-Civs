@@ -1,0 +1,100 @@
+﻿l_german:
+ building_aerhanbula: "Alhambra"
+ building_wnsjunxieku: "Venezianisches Arsenal"
+ building_xiuishenmiao: "Huei Teocalli"
+ building_dajinbabuwei: "Groß-Simbabwe"
+ building_jinzita: "Pyramiden"
+ building_dayuchang: "Das Große Bad"
+ building_boergeershan: "Jebel Barkal"
+ building_doushouchang: "Kolosseum"
+ building_jierwa: "Kilwa Kisiwani"
+ building_sangkelei: "Universität von Sankore"
+ building_beilunta: "Torre de Belém"
+ building_xiyindujiaoyisuo: "Casa de Contratación"
+ building_luershangu: "Ruhrgebiet"
+ building_shenmixieershan: "Mont-Saint-Michel"
+ building_xiongyali: "Országház"
+ building_bailaohui: "Broadway"
+ building_xinigejvyuan: "Sydney-Oper"
+
+
+ pmg_base_building_aerhanbula: "Alhambra"
+ pm_default_building_aerhanbula: "Alhambra"
+ pmg_base_building_wnsjunxieku: "Venezianisches Arsenal"
+ pm_default_building_wnsjunxieku: "Venezianisches Arsenal"
+ pmg_base_building_xiuishenmiao: "Huei Teocalli"
+ pm_default_building_xiuishenmiao: "Huei Teocalli"
+ pmg_base_building_dajinbabuwei: "Groß-Simbabwe"
+ pm_default_building_dajinbabuwei: "Groß-Simbabwe"
+ pmg_base_building_jinzita: "Pyramiden"
+ pm_default_building_jinzita: "Pyramiden"
+ pmg_base_building_dayuchang: "Das Große Bad"
+ pm_default_building_dayuchang: "Das Große Bad"
+ pmg_base_building_boergeershan: "Jebel Barkal"
+ pm_default_building_boergeershan: "Jebel Barkal"
+ pmg_base_building_doushouchang: "Kolosseum"
+ pm_default_building_doushouchang: "Kolosseum"
+ pmg_base_building_jierwa: "Kilwa Kisiwani"
+ pm_default_building_jierwa: "Kilwa Kisiwani"
+ pmg_base_building_sangkelei: "Universität von Sankore"
+ pm_default_building_sangkelei: "Universität von Sankore"
+ pmg_base_building_beilunta: "Torre de Belém"
+ pm_default_building_beilunta: "Torre de Belém"
+ pmg_base_building_xiyindujiaoyisuo: "Casa de Contratación"
+ pm_default_building_xiyindujiaoyisuo: "Casa de Contratación"
+ pmg_base_building_luershangu: "Ruhrgebiet"
+ pm_default_building_luershangu: "Ruhrgebiet"
+ pmg_base_building_shenmixieershan: "Mont-Saint-Michel"
+ pm_default_building_shenmixieershan: "Mont-Saint-Michel"
+ pmg_base_building_xiongyali: "Országház"
+ pm_default_building_xiongyali: "Országház"
+ pmg_base_building_bailaohui: "Broadway"
+ pm_default_building_bailaohui: "Broadway"
+ pmg_base_building_xinigejvyuan: "Sydney-Oper"
+ pm_default_building_xinigejvyuan: "Sydney-Oper"
+
+
+
+
+
+
+
+
+
+
+ building_aifeier: "Eiffelturm"
+ building_wugeku: "Angkor Wat"
+ building_bigben: "Big Ben"
+ building_zijinchen: "Verbotene Stadt"
+ building_shensuofeiya: "Hagia Sophia"
+ building_shenwaxili: "Basilius-Kathedrale"
+ building_ziyounvshen: "Freiheitsstatue"
+
+ pm_default_building_aifeier: "Eiffelturm"
+ pm_default_building_wugeku: "Angkor Wat"
+ pm_default_building_bigben: "Big Ben"
+ pm_default_building_zijinchen: "Verbotene Stadt"
+ pm_default_building_shensuofeiya: "Hagia Sophia"
+ pm_default_building_shenwaxili: "Basilius-Kathedrale"
+ pm_default_building_ziyounvshen: "Freiheitsstatue"
+ pm_default_building_jiushijidu: "Cristo Redentor"
+
+
+
+
+
+
+
+
+
+ building_hongchang: "Roter Platz"
+ building_tiananmen: "Tian’anmen-Tor"
+ building_zijincheng: "Verbotene Stadt"
+ building_donggong: "Winterpalast"
+ building_aiertamishi: "Eremitage"
+ building_budala: "Potala-Palast"
+ building_shenyusuo: "Orakel"
+ building_binmayong: "Terrakotta-Armee"
+ building_peitela: "Petra"
+ building_maqiubiqiu: "Machu Picchu"
+ building_qiqinicha: "Chichén Itzá"

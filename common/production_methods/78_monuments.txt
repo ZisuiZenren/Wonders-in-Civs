@@ -1,0 +1,893 @@
+﻿pm_default_building_aerhanbula = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+            country_military_tech_research_speed_mult = 0.2
+			unit_army_defense_mult = 0.1
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_wnsjunxieku = {  
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+            building_shipyard_throughput_add = 1
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_xiuishenmiao = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+            state_loyalists_from_political_movements_mult = 0.2
+			building_fishing_wharf_throughput_add = 0.3
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_dajinbabuwei = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+            state_trade_advantage_mult = 0.3
+			country_minting_add = 30000
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_jinzita = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+			state_construction_mult = 0.33
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_dayuchang = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+			state_harvest_condition_flood_impact_mult = -1
+			state_harvest_condition_wildfire_impact_mult = -0.25
+			state_harvest_condition_extreme_winds_impact_mult = -0.25
+			state_harvest_condition_drought_impact_mult= -0.25
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_boergeershan = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+			building_iron_mine_throughput_add = 0.5
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_doushouchang = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+			country_society_tech_research_speed_mult = 0.2
+			state_loyalists_from_political_movements_mult = 0.3
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_jierwa = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+			country_authority_per_subject_add = 10
+			country_subject_income_transfer_mult = 0.2
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_sangkelei = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+			country_tech_spread_mult = 0.60
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_beilunta = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+			building_trade_center_throughput_add = 0.2
+			country_minting_add = 10000
+			country_free_charters_add = 1
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_xiyindujiaoyisuo = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+			country_company_construction_efficiency_bonus_add = 0.15
+			country_free_charters_add = 3
+			country_max_companies_add = 1
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_luershangu = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+			building_group_bg_mining_throughput_add = 0.2
+			building_steel_mill_throughput_add = 0.2
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pm_default_building_shensuofeiya = {#原版
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+			country_acceptance_state_religion_add = 10
+			country_acceptance_no_shared_religious_trait_add = 10
+
+			country_allow_conversion_violent_hostility_bool = yes
+			country_allow_conversion_cultural_erasure_bool = yes
+			country_allow_conversion_open_prejudice_bool = yes
+			country_allow_conversion_second_rate_citizen_bool = yes
+			country_allow_conversion_full_acceptance_bool = yes
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_wugeku = {#原版
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+			building_group_bg_agriculture_throughput_add = 0.2
+			building_group_bg_plantations_throughput_add = 0.2
+			building_group_bg_ranching_throughput_add = 0.2
+			state_birth_rate_mult = 0.05
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_zijinchen = {#原版
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		level_scaled = {
+			country_authority_add = 300
+			country_legitimacy_headofstate_add = 20
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_bigben = {#原版
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+			country_max_companies_add = 1
+			country_company_throughput_bonus_add = 0.1
+			building_throughput_add = 0.10
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_shenwaxili = {#原版
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+			building_group_bg_agriculture_throughput_add = 0.1
+			state_birth_rate_mult = 0.03
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_aifeier = {#原版
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+			state_assimilation_mult = 0.3
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_ziyounvshen = {#原版，bug
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+			state_loyalists_from_political_movements_mult = 0.2
+			state_migration_pull_mult = 0.2
+			country_leverage_generation_mult = 0.25
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_shenmixieershan = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+			country_authority_mult = 0.2
+			state_conversion_mult = 0.2
+			country_clergymen_pol_str_mult = 0.1
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_xiongyali = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+			country_liberty_desire_of_subjects_add = -0.25
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_bailaohui = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+			building_art_academy_throughput_add = 0.3
+			country_society_tech_research_speed_mult = 0.2
+
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_jiushijidu = {#原版
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+			interest_group_ig_devout_approval_add = 5
+			country_influence_mult = 0.5
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_xinigejvyuan = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+			country_influence_mult = 0.5
+			state_migration_pull_mult = 0.3
+			country_society_tech_research_speed_mult = 0.2
+			state_upper_strata_expected_sol_add = 2
+			state_middle_strata_expected_sol_add = 1
+			state_lower_strata_expected_sol_add = -2
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pm_default_building_hongchang = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+			building_automotive_industry_throughput_add = 0.25
+			country_legitimacy_govt_total_votes_add = 10
+			country_legitimacy_ideological_incoherence_mult = -0.1
+			interest_group_ig_trade_unions_pol_str_mult = 0.25
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_tiananmen = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_donggong = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_aiertamishi = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_peitela = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {#有点困难
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_shenyusuo = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {#走事件
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_binmayong = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+			unit_experience_gain_mult = 0.3
+			building_training_rate_mult = 0.3
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_qiqinicha = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {#有点困难
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_maqiubiqiu = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {#有点困难
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_budala = {#原版
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_nongnujiefang = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {#先不做
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_mosikedajvyuan = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_jinmendaqiao = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_bolandengbaomen = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_delihongbao = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_jieneidaqinzhensi = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_zhihuigong = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_ailamuhuayuan = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_sanxiadaba = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_dayunhe = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_default_building_meiquangong = {#原版
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	country_modifiers = {
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}

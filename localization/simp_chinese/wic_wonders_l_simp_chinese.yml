@@ -1,0 +1,116 @@
+﻿l_simp_chinese:
+ je_group_wic_wonders: "世界奇观"
+
+ # --- 阿尔罕布拉宫 ---
+ je_wic_aerhanbula: "阿尔罕布拉宫"
+ je_wic_aerhanbula_reason: "纳斯里德王朝的红石宫殿仍盘踞在格拉纳达的山丘之上，庭院与流水花园半掩于荒草之间。我们的建筑师相信，这座宫殿能够重现昔日的荣光——那样，我们在伊比利亚的统治将显得永恒不朽。"
+ je_wic_aerhanbula_status_building: "石匠与园丁正在阿尔罕布拉宫中劳作。"
+ je_wic_aerhanbula_status_none: "阿尔罕布拉宫已沉寂于废墟之中。趁庭园尚未彻底湮灭，我们必须重建它。"
+ je_wic_aerhanbula_complete_tt: "在格拉纳达重建#bold 阿尔罕布拉宫#!。"
+
+ # --- 胡夫金字塔 ---
+ je_wic_jinzita: "胡夫金字塔"
+ je_wic_jinzita_reason: "古代世界七大奇迹之中，唯有胡夫的陵墓依然矗立。它比建造它的君王更长久，比继承他们的帝国更长久，也熬过了所有关于它倾颓的预言。若我们修复它的外壳与神庙，它将比我们更长久。"
+ je_wic_jinzita_status_building: "石块正被开采并运往吉萨高地。"
+ je_wic_jinzita_status_none: "金字塔依然屹立，却已成为一座没有意义的陵墓。让它重新开口说话吧。"
+ je_wic_jinzita_complete_tt: "在吉萨修复#bold 大金字塔#!。"
+
+ # --- 罗马斗兽场 ---
+ je_wic_doushouchang: "弗拉维圆形剧场"
+ je_wic_doushouchang_reason: "斗兽场已矗立十八个世纪，大理石与半数座席早已被剥去，却仍让此后一切建筑相形见绌。罗马记得它曾是什么样子。只要修复这座竞技场，世界就会记得罗马如今是什么。"
+ je_wic_doushouchang_status_building: "脚手架正沿着斗兽场的拱门攀升。"
+ je_wic_doushouchang_status_none: "斗兽场空无一人，竞技场敞向天空。我们必须修复它。"
+ je_wic_doushouchang_complete_tt: "在罗马修复#bold 斗兽场#!。"
+
+ # --- 鲁尔山谷 ---
+ je_wic_luershangu: "铁之谷"
+ je_wic_luershangu_reason: "鲁尔是一片由煤层、工厂城镇与烟囱构成的土地——上百座作坊，却从未被拧成一件伟大的作品。将它们纳入同一份蓝图，我们的工业将成为现代世界的奇迹。"
+ je_wic_luershangu_status_building: "高炉与矿井井架正在鲁尔各地拔地而起。"
+ je_wic_luershangu_status_none: "鲁尔的工坊零散而彼此倾轧。必须把它们拧成一股。"
+ je_wic_luershangu_complete_tt: "鲁尔谷的工程全部完工。"
+
+ # --- 悉尼歌剧院 ---
+ je_wic_xinigejvyuan: "悉尼的白帆"
+ je_wic_xinigejvyuan_reason: "一座世界尽头的新兴城市，梦想着建起一座音乐厅，让白色贝壳如船帆般从海港升起。工程师说那些曲线不可能实现。可每一座奇观在动工之前，都听过同样的话。"
+ je_wic_xinigejvyuan_status_building: "混凝土贝壳正在悉尼港上空成形。"
+ je_wic_xinigejvyuan_status_none: "悉尼有海港，却没有可以冠冕它的建筑。我们必须为这座城市装上白帆。"
+ je_wic_xinigejvyuan_complete_tt: "悉尼歌剧院在海港边落成。"
+
+ # --- 完成事件 ---
+ wic_wonders.shared.a: "让万世铭记"
+ wic_wonders.shared.b: "让万民受益"
+
+ wic_wonders.1.t: "阿尔罕布拉宫重现"
+ wic_wonders.1.d: "流水重新穿过狮子庭院，红色宫墙在黄昏中泛出与埃米尔时代并无二致的光。人群聚集在宫门前，欧洲的每一座宫廷都在谈论我们的名字。"
+ wic_wonders.1.f: "征服者筑墙，文明则筑园。"
+
+ wic_wonders.2.t: "唯一幸存的奇迹"
+ wic_wonders.2.d: "外壳石料已然归位，神庙被清扫一新，三千年来第一次，胡夫的陵墓以建造者所期望的样子矗立。朝圣者与学者已经开始穿越沙漠前来瞻仰。"
+ wic_wonders.2.f: "人畏惧时间，而时间畏惧金字塔。"
+
+ wic_wonders.3.t: "斗兽场再度轰鸣"
+ wic_wonders.3.d: "竞技场重归完整，拱门修复如初，十万人的呼喊再一次在石壁间回荡。无论世人如何评说我们，他们都会说：是我们让罗马重获新生。"
+ wic_wonders.3.f: "斗兽场屹立，罗马便屹立。"
+
+ wic_wonders.4.t: "铁之谷"
+ wic_wonders.4.d: "最后一座高炉点燃。从井架到轧机，鲁尔如今像一台机器般运转，我们的工业之烟，在邻省都能望见。"
+ wic_wonders.4.f: "煤不是矿物，而是一句承诺。"
+
+ wic_wonders.5.t: "悉尼的白帆"
+ wic_wonders.5.d: "白色贝壳终于在海港上空展开。这座以流放地起家的城市，如今拥有了一座值得旧世界渡海而来的纪念碑。"
+ wic_wonders.5.f: "每一个年轻的国度，都需要一座能说出「我们在此」的建筑。"
+
+ # --- 奖励修正名称 ---
+ wic_wonder_aerhanbula_glory: "阿尔罕布拉宫的荣光"
+ wic_wonder_aerhanbula_profit: "阿尔罕布拉宫的庭园"
+ wic_wonder_jinzita_glory: "金字塔的荣光"
+ wic_wonder_jinzita_profit: "吉萨的朝圣者"
+ wic_wonder_doushouchang_glory: "竞技场的荣光"
+ wic_wonder_doushouchang_profit: "罗马的人潮"
+ wic_wonder_luershangu_glory: "鲁尔的骄傲"
+ wic_wonder_luershangu_profit: "全速运转的铁谷"
+ wic_wonder_xinigejvyuan_glory: "海港的奇迹"
+ wic_wonder_xinigejvyuan_profit: "海港的文化"
+ wic_wonder_lost_race: "奇观之争落败"
+
+ # --- 失败：别国抢先建成 ---
+ wic_wonders_fail.shared: "在国际舞台上蒙羞"
+ wic_wonders_fail.ack: "我们不会很快忘记这一切。"
+
+ je_wic_aerhanbula_fail_tt: "其他国家已经抢先建成了#bold 阿尔罕布拉宫#!。"
+ je_wic_aerhanbula_failed: "另一个国家重建了阿尔罕布拉宫。我们的图纸还躺在抽屉里。"
+
+ je_wic_jinzita_fail_tt: "其他国家已经抢先修复了#bold 大金字塔#!。"
+ je_wic_jinzita_failed: "另一个国家修复了金字塔。吉萨如今属于他们的故事。"
+
+ je_wic_doushouchang_fail_tt: "其他国家已经抢先修复了#bold 斗兽场#!。"
+ je_wic_doushouchang_failed: "另一个国家重开了斗兽场，在沙地上竖起了自己的旗帜。"
+
+ je_wic_luershangu_fail_tt: "其他国家已经抢先建成了#bold 鲁尔山谷#!。"
+ je_wic_luershangu_failed: "另一个国家把鲁尔拧成了一台机器。我们自己的工坊仍然零散。"
+
+ je_wic_xinigejvyuan_fail_tt: "其他国家已经抢先建成了#bold 悉尼歌剧院#!。"
+ je_wic_xinigejvyuan_failed: "另一个国家在海港上升起了白帆。"
+
+ wic_wonders_fail.1.t: "格拉纳达的另一个宫廷"
+ wic_wonders_fail.1.d: "我们的建筑师还在为图纸争论不休时，[SCOPE.sCountry('wic_rival_country').GetName]已经建成了阿尔罕布拉宫。流水再一次穿过狮子庭院——只是为别人而流。欧洲的每一座宫廷如今都在说：那个国家赞美了一座奇观，然后让别人把它建了起来。"
+ wic_wonders_fail.1.f: "从外面看，红墙并无二致。它只是为别人而闪耀。"
+
+ wic_wonders_fail.2.t: "别人之手完成了金字塔"
+ wic_wonders_fail.2.d: "胡夫金字塔的外壳石料已经归位，而将它们归位的是[SCOPE.sCountry('wic_rival_country').GetName]。穿越沙漠而来的学者记述的是他们的功业；世界上最古老的奇迹，如今戴着另一个国家的名字。"
+ wic_wonders_fail.2.f: "三千年的耐心都等得起，我们连十年都等不了。"
+
+ wic_wonders_fail.3.t: "竞技场为另一面旗帜轰鸣"
+ wic_wonders_fail.3.d: "斗兽场重归完整。[SCOPE.sCountry('wic_rival_country').GetName]修复了拱门，重启了竞技场，如今在沙地上竖起自己的旗帜。罗马被重新唤醒——用的却不是我们的双手。"
+ wic_wonders_fail.3.f: "斗兽场屹立，罗马便屹立。至于谁与它并肩，那句话没说。"
+
+ wic_wonders_fail.4.t: "烟囱在对岸升起"
+ wic_wonders_fail.4.d: "鲁尔如今像一台机器般运转——由[SCOPE.sCountry('wic_rival_country').GetName]统筹、出资并最终建成。在[SCOPE.sState('wic_rival_state').GetName]升起的每一座烟囱，都是我们没有立起的那一座；我们自己的工坊仍在彼此倾轧。"
+ wic_wonders_fail.4.f: "煤是一句承诺。别人兑现了它。"
+
+ wic_wonders_fail.5.t: "另一座海港，另一顶冠冕"
+ wic_wonders_fail.5.d: "白色贝壳如今矗立在悉尼港上，由[SCOPE.sCountry('wic_rival_country').GetName]所建。渡海前来观赏的船只，不会为我们而来了。"
+ wic_wonders_fail.5.f: "每一个年轻的国度都需要一座能说出「我们在此」的建筑。别人先说了。"
+
+
+

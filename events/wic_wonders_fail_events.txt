@@ -1,0 +1,240 @@
+﻿namespace = wic_wonders_fail
+
+# Failure events for the Wonders in Civs journal entries.
+# Fired by the on_fail of a journal entry when another country has already
+# built the wonder (all monument buildings are 'unique = yes', i.e. only one
+# can exist in the entire world, so the race is lost for everyone else).
+#
+# Scope layout:
+#   scope:wic_rival_state    - the state where the rival built the wonder
+#   scope:wic_rival_country  - its owner
+
+# --- The Alhambra ---
+wic_wonders_fail.1 = {
+	type = country_event
+	placement = scope:wic_rival_state
+
+	duration = 3
+
+	title = wic_wonders_fail.1.t
+	desc = wic_wonders_fail.1.d
+	flavor = wic_wonders_fail.1.f
+
+	event_image = {
+		video = "unspecific_world_fair"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	immediate = {
+		s:STATE_UPPER_ANDALUSIA = {
+			any_scope_state = {
+				limit = {
+					has_building = building_aerhanbula
+				}
+				save_scope_as = wic_rival_state
+			}
+		}
+		if = {
+			limit = { exists = scope:wic_rival_state }
+			scope:wic_rival_state = {
+				owner = {
+					save_scope_as = wic_rival_country
+				}
+			}
+		}
+	}
+
+	option = {
+		name = wic_wonders_fail.ack
+		add_modifier = {
+			name = wic_wonder_lost_race
+			days = moderately_long_modifier_time
+		}
+	}
+}
+
+# --- The Great Pyramid ---
+wic_wonders_fail.2 = {
+	type = country_event
+	placement = scope:wic_rival_state
+
+	duration = 3
+
+	title = wic_wonders_fail.2.t
+	desc = wic_wonders_fail.2.d
+	flavor = wic_wonders_fail.2.f
+
+	event_image = {
+		video = "unspecific_world_fair"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	immediate = {
+		s:STATE_LOWER_EGYPT = {
+			any_scope_state = {
+				limit = {
+					has_building = building_jinzita
+				}
+				save_scope_as = wic_rival_state
+			}
+		}
+		if = {
+			limit = { exists = scope:wic_rival_state }
+			scope:wic_rival_state = {
+				owner = {
+					save_scope_as = wic_rival_country
+				}
+			}
+		}
+	}
+
+	option = {
+		name = wic_wonders_fail.ack
+		add_modifier = {
+			name = wic_wonder_lost_race
+			days = moderately_long_modifier_time
+		}
+	}
+}
+
+# --- The Colosseum ---
+wic_wonders_fail.3 = {
+	type = country_event
+	placement = scope:wic_rival_state
+
+	duration = 3
+
+	title = wic_wonders_fail.3.t
+	desc = wic_wonders_fail.3.d
+	flavor = wic_wonders_fail.3.f
+
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	immediate = {
+		s:STATE_LAZIO = {
+			any_scope_state = {
+				limit = {
+					has_building = building_doushouchang
+				}
+				save_scope_as = wic_rival_state
+			}
+		}
+		if = {
+			limit = { exists = scope:wic_rival_state }
+			scope:wic_rival_state = {
+				owner = {
+					save_scope_as = wic_rival_country
+				}
+			}
+		}
+	}
+
+	option = {
+		name = wic_wonders_fail.ack
+		add_modifier = {
+			name = wic_wonder_lost_race
+			days = moderately_long_modifier_time
+		}
+	}
+}
+
+# --- The Ruhr Valley ---
+wic_wonders_fail.4 = {
+	type = country_event
+	placement = scope:wic_rival_state
+
+	duration = 3
+
+	title = wic_wonders_fail.4.t
+	desc = wic_wonders_fail.4.d
+	flavor = wic_wonders_fail.4.f
+
+	event_image = {
+		video = "unspecific_gears_pistons"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	immediate = {
+		s:STATE_HESSE = {
+			any_scope_state = {
+				limit = {
+					has_building = building_luershangu
+				}
+				save_scope_as = wic_rival_state
+			}
+		}
+		if = {
+			limit = { exists = scope:wic_rival_state }
+			scope:wic_rival_state = {
+				owner = {
+					save_scope_as = wic_rival_country
+				}
+			}
+		}
+	}
+
+	option = {
+		name = wic_wonders_fail.ack
+		add_modifier = {
+			name = wic_wonder_lost_race
+			days = moderately_long_modifier_time
+		}
+	}
+}
+
+# --- The Sydney Opera House ---
+wic_wonders_fail.5 = {
+	type = country_event
+	placement = scope:wic_rival_state
+
+	duration = 3
+
+	title = wic_wonders_fail.5.t
+	desc = wic_wonders_fail.5.d
+	flavor = wic_wonders_fail.5.f
+
+	event_image = {
+		video = "unspecific_world_fair"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	immediate = {
+		s:STATE_NEW_SOUTH_WALES = {
+			any_scope_state = {
+				limit = {
+					has_building = building_xinigejvyuan
+				}
+				save_scope_as = wic_rival_state
+			}
+		}
+		if = {
+			limit = { exists = scope:wic_rival_state }
+			scope:wic_rival_state = {
+				owner = {
+					save_scope_as = wic_rival_country
+				}
+			}
+		}
+	}
+
+	option = {
+		name = wic_wonders_fail.ack
+		add_modifier = {
+			name = wic_wonder_lost_race
+			days = moderately_long_modifier_time
+		}
+	}
+}

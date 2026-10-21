@@ -1,0 +1,116 @@
+﻿l_english:
+ je_group_wic_wonders: "Wonders of the World"
+
+ # --- The Alhambra ---
+ je_wic_aerhanbula: "The Alhambra"
+ je_wic_aerhanbula_reason: "The red citadel of the Nasrid emirs still crowns the hill above Granada, its courtyards and water gardens half-buried in neglect. Our architects believe the palace can be raised again — a monument that would make our rule in Iberia feel eternal."
+ je_wic_aerhanbula_status_building: "Masons and gardeners are at work on the Alhambra."
+ je_wic_aerhanbula_status_none: "The Alhambra lies in ruin. We must rebuild it before its gardens are lost forever."
+ je_wic_aerhanbula_complete_tt: "The #bold Alhambra#! is rebuilt in Granada."
+
+ # --- The Great Pyramid ---
+ je_wic_jinzita: "The Great Pyramid"
+ je_wic_jinzita_reason: "Of the seven wonders of the ancient world, only the pyramid of Khufu still stands. It has outlived the kings who raised it, the empires that followed them, and every prophecy of its fall. If we restore its casing and its temples, it will outlive us too."
+ je_wic_jinzita_status_building: "Stone is being cut and dragged to the plateau of Giza."
+ je_wic_jinzita_status_none: "The Great Pyramid endures, but it is a tomb without a purpose. Let us make it speak again."
+ je_wic_jinzita_complete_tt: "The #bold Great Pyramid#! is restored at Giza."
+
+ # --- The Colosseum ---
+ je_wic_doushouchang: "The Flavian Amphitheatre"
+ je_wic_doushouchang_reason: "The Colosseum has stood for eighteen centuries, stripped of its marble and half its seats, and still it dwarfs everything built since. Rome remembers what it was. Restore the arena, and the world will remember what Rome is."
+ je_wic_doushouchang_status_building: "Scaffolding climbs the arches of the Colosseum."
+ je_wic_doushouchang_status_none: "The Colosseum stands empty, its arena open to the sky. We must restore it."
+ je_wic_doushouchang_complete_tt: "The #bold Colosseum#! is restored in Rome."
+
+ # --- The Ruhr Valley ---
+ je_wic_luershangu: "The Valley of Iron"
+ je_wic_luershangu_reason: "The Ruhr is a landscape of coal seams, mill towns and smoking chimneys — a hundred workshops that have never been bound into one great work. Bring them together under a single plan, and our industry will become a wonder of the modern age."
+ je_wic_luershangu_status_building: "Furnaces and winding towers are rising across the Ruhr."
+ je_wic_luershangu_status_none: "The Ruhr works are scattered and rivalrous. They must be bound into one."
+ je_wic_luershangu_complete_tt: "The #bold Ruhr Valley#! works are completed."
+
+ # --- The Sydney Opera House ---
+ je_wic_xinigejvyuan: "The Sails of Sydney"
+ je_wic_xinigejvyuan_reason: "A young city on the far side of the world dreams of a concert hall whose white shells would rise from the harbour like sails. Engineers say the curves are impossible. Architects said the same of every wonder ever built."
+ je_wic_xinigejvyuan_status_building: "Concrete shells are taking shape above Sydney Harbour."
+ je_wic_xinigejvyuan_status_none: "Sydney has a harbour and nothing to crown it. We must give the city its sails."
+ je_wic_xinigejvyuan_complete_tt: "The #bold Sydney Opera House#! opens on the harbour."
+
+ # --- Completion events ---
+ wic_wonders.shared.a: "A monument for the ages"
+ wic_wonders.shared.b: "A monument for the people"
+
+ wic_wonders.1.t: "The Alhambra Restored"
+ wic_wonders.1.d: "Water runs again through the Court of the Lions, and the red walls glow at dusk as they did under the emirs. Crowds gather at the palace gates, and our name is spoken in every court of Europe."
+ wic_wonders.1.f: "A conqueror builds walls. A civilization builds gardens."
+
+ wic_wonders.2.t: "The Only Wonder Left Standing"
+ wic_wonders.2.d: "The casing stones are set, the temples swept clean, and for the first time in three thousand years the pyramid of Khufu stands as its builders intended. Pilgrims and scholars are already crossing the desert to see it."
+ wic_wonders.2.f: "Man fears time, but time fears the pyramids."
+
+ wic_wonders.3.t: "The Colosseum Roars Again"
+ wic_wonders.3.d: "The arena is whole, the arches restored, and a hundred thousand voices echo off the stone once more. Whatever else the world says of us, it will say that we brought Rome back to life."
+ wic_wonders.3.f: "While stands the Colosseum, Rome shall stand."
+
+ wic_wonders.4.t: "The Valley of Iron"
+ wic_wonders.4.d: "The last furnace is lit. From the winding towers to the rolling mills, the Ruhr now works as a single machine, and the smoke of our industry can be seen from the next province."
+ wic_wonders.4.f: "Coal is not a mineral. It is a promise."
+
+ wic_wonders.5.t: "The Sails of Sydney"
+ wic_wonders.5.d: "The white shells rise over the harbour at last, and the city that began as a penal colony now has a monument the old world will cross the ocean to see."
+ wic_wonders.5.f: "Every young nation needs one building that says: we are here."
+
+ # --- Reward modifier names ---
+ wic_wonder_aerhanbula_glory: "Renown of the Alhambra"
+ wic_wonder_aerhanbula_profit: "Gardens of the Alhambra"
+ wic_wonder_jinzita_glory: "Glory of the Pyramid"
+ wic_wonder_jinzita_profit: "Pilgrims of Giza"
+ wic_wonder_doushouchang_glory: "Glory of the Arena"
+ wic_wonder_doushouchang_profit: "The Crowds of Rome"
+ wic_wonder_luershangu_glory: "Pride of the Ruhr"
+ wic_wonder_luershangu_profit: "The Valley at Full Steam"
+ wic_wonder_xinigejvyuan_glory: "Wonder of the Harbour"
+ wic_wonder_xinigejvyuan_profit: "Culture of the Harbour"
+ wic_wonder_lost_race: "Lost Race for a Wonder"
+
+ # --- Failure: another country built the wonder first ---
+ wic_wonders_fail.shared: "A humiliation on the world stage"
+ wic_wonders_fail.ack: "We will not soon forget this."
+
+ je_wic_aerhanbula_fail_tt: "Another country has already built the #bold Alhambra#!."
+ je_wic_aerhanbula_failed: "Another nation raised the Alhambra. Our own plans are still in a drawer."
+
+ je_wic_jinzita_fail_tt: "Another country has already restored the #bold Great Pyramid#!."
+ je_wic_jinzita_failed: "Another nation restored the pyramid. Giza belongs to their story now."
+
+ je_wic_doushouchang_fail_tt: "Another country has already restored the #bold Colosseum#!."
+ je_wic_doushouchang_failed: "Another nation reopened the Colosseum and raised its own banners over the sand."
+
+ je_wic_luershangu_fail_tt: "Another country has already completed the #bold Ruhr Valley#!."
+ je_wic_luershangu_failed: "Another nation bound the Ruhr into one machine. Our own works are still scattered."
+
+ je_wic_xinigejvyuan_fail_tt: "Another country has already built the #bold Sydney Opera House#!."
+ je_wic_xinigejvyuan_failed: "Another nation raised the white sails over the harbour."
+
+ wic_wonders_fail.1.t: "Another Court in Granada"
+ wic_wonders_fail.1.d: "While our architects were still arguing over the plans, [SCOPE.sCountry('wic_rival_country').GetName] finished the Alhambra. Water runs through the Court of the Lions once more — for them. In every court of Europe, our name is now the name of the nation that praised a wonder and let another build it."
+ wic_wonders_fail.1.f: "The red walls look the same from the outside. They simply shine for someone else."
+
+ wic_wonders_fail.2.t: "Another Hand Completed the Pyramid"
+ wic_wonders_fail.2.d: "The casing stones of Khufu's pyramid are set, and they were set by [SCOPE.sCountry('wic_rival_country').GetName]. The scholars crossing the desert write of their achievement; the oldest wonder in the world now wears another nation's name."
+ wic_wonders_fail.2.f: "Three thousand years of patience, and we could not manage a single decade."
+
+ wic_wonders_fail.3.t: "The Arena Roars for Another Flag"
+ wic_wonders_fail.3.d: "The Colosseum is whole again. [SCOPE.sCountry('wic_rival_country').GetName] restored the arches, reopened the arena, and now raises its own standards over the sand. Rome has been brought back to life — by hands that were not ours."
+ wic_wonders_fail.3.f: "While stands the Colosseum, Rome shall stand. It says nothing about who stands with it."
+
+ wic_wonders_fail.4.t: "The Smoke Rises on the Other Side"
+ wic_wonders_fail.4.d: "The Ruhr now works as a single machine — planned, financed and finished by [SCOPE.sCountry('wic_rival_country').GetName]. Every chimney that rises in [SCOPE.sState('wic_rival_state').GetName] is a chimney we did not raise, and our own works are left to quarrel with one another."
+ wic_wonders_fail.4.f: "Coal is a promise. Someone else kept it."
+
+ wic_wonders_fail.5.t: "Another Harbour, Another Crown"
+ wic_wonders_fail.5.d: "The white shells now stand over Sydney Harbour, raised by [SCOPE.sCountry('wic_rival_country').GetName]. The ships that cross the ocean to see them will not be sailing for us."
+ wic_wonders_fail.5.f: "Every young nation needs one building that says: we are here. Someone else said it first."
+
+
+

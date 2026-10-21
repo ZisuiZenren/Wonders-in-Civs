@@ -1,0 +1,671 @@
+﻿# Wonders in Civs - monument journal entries
+# One journal entry per buildable wonder. The entry is shown to any country
+# that owns the wonder's state region, and completes once the building exists.
+
+je_wic_aerhanbula = {
+	icon = "gfx/interface/icons/building_icons/aerhanbula.dds"
+	group = je_group_wic_wonders
+
+	is_shown_when_inactive = {
+		any_scope_state = {
+			state_region = s:STATE_UPPER_ANDALUSIA
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_UPPER_ANDALUSIA
+		}
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_wic_aerhanbula_status_building
+				trigger = {
+					any_scope_state = {
+						state_region = s:STATE_UPPER_ANDALUSIA
+						any_scope_building = {
+							is_building_type = building_aerhanbula
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = je_wic_aerhanbula_status_none
+				trigger = { always = yes }
+			}
+		}
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = je_wic_aerhanbula_complete_tt
+			any_scope_state = {
+				state_region = s:STATE_UPPER_ANDALUSIA
+				has_building = building_aerhanbula
+			}
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = wic_wonders.1
+			days = 0
+			popup = yes
+		}
+	}
+
+	invalid = {
+		NOT = {
+			any_scope_state = {
+				state_region = s:STATE_UPPER_ANDALUSIA
+			}
+		}
+	}
+
+	fail = {
+		custom_tooltip = {
+			text = je_wic_aerhanbula_fail_tt
+			NOT = {
+				any_scope_state = {
+					state_region = s:STATE_UPPER_ANDALUSIA
+					has_building = building_aerhanbula
+				}
+			}
+			s:STATE_UPPER_ANDALUSIA = {
+				any_scope_state = {
+					has_building = building_aerhanbula
+				}
+			}
+		}
+	}
+
+	on_fail = {
+		trigger_event = {
+			id = wic_wonders_fail.1
+			days = 0
+			popup = yes
+		}
+	}
+
+	event_outcome_failed_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_wic_aerhanbula_failed
+			}
+		}
+	}
+
+	event_outcome_failed_effect_desc = {
+		header = wic_wonders_fail.shared
+		effect = {
+			add_modifier = {
+				name = wic_wonder_lost_race
+				days = moderately_long_modifier_time
+			}
+		}
+	}
+
+
+	event_outcome_completed_effect_desc = {
+		header = wic_wonders.shared.a
+		effect = {
+			add_modifier = {
+				name = wic_wonder_aerhanbula_glory
+				days = normal_modifier_time
+			}
+		}
+	}
+
+	event_outcome_completed_effect_desc = {
+		header = wic_wonders.shared.b
+		effect = {
+			add_treasury = 30000
+			random_scope_state = {
+				limit = {
+					state_region = s:STATE_UPPER_ANDALUSIA
+					has_building = building_aerhanbula
+				}
+				add_modifier = {
+					name = wic_wonder_aerhanbula_profit
+					days = normal_modifier_time
+				}
+			}
+		}
+	}
+
+	weight = 900
+}
+
+je_wic_jinzita = {
+	icon = "gfx/interface/icons/building_icons/jinzita.dds"
+	group = je_group_wic_wonders
+
+	is_shown_when_inactive = {
+		any_scope_state = {
+			state_region = s:STATE_LOWER_EGYPT
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_LOWER_EGYPT
+		}
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_wic_jinzita_status_building
+				trigger = {
+					any_scope_state = {
+						state_region = s:STATE_LOWER_EGYPT
+						any_scope_building = {
+							is_building_type = building_jinzita
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = je_wic_jinzita_status_none
+				trigger = { always = yes }
+			}
+		}
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = je_wic_jinzita_complete_tt
+			any_scope_state = {
+				state_region = s:STATE_LOWER_EGYPT
+				has_building = building_jinzita
+			}
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = wic_wonders.2
+			days = 0
+			popup = yes
+		}
+	}
+
+	invalid = {
+		NOT = {
+			any_scope_state = {
+				state_region = s:STATE_LOWER_EGYPT
+			}
+		}
+	}
+
+	fail = {
+		custom_tooltip = {
+			text = je_wic_jinzita_fail_tt
+			NOT = {
+				any_scope_state = {
+					state_region = s:STATE_LOWER_EGYPT
+					has_building = building_jinzita
+				}
+			}
+			s:STATE_LOWER_EGYPT = {
+				any_scope_state = {
+					has_building = building_jinzita
+				}
+			}
+		}
+	}
+
+	on_fail = {
+		trigger_event = {
+			id = wic_wonders_fail.2
+			days = 0
+			popup = yes
+		}
+	}
+
+	event_outcome_failed_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_wic_jinzita_failed
+			}
+		}
+	}
+
+	event_outcome_failed_effect_desc = {
+		header = wic_wonders_fail.shared
+		effect = {
+			add_modifier = {
+				name = wic_wonder_lost_race
+				days = moderately_long_modifier_time
+			}
+		}
+	}
+
+
+	event_outcome_completed_effect_desc = {
+		header = wic_wonders.shared.a
+		effect = {
+			add_modifier = {
+				name = wic_wonder_jinzita_glory
+				days = normal_modifier_time
+			}
+		}
+	}
+
+	event_outcome_completed_effect_desc = {
+		header = wic_wonders.shared.b
+		effect = {
+			add_treasury = 50000
+			random_scope_state = {
+				limit = {
+					state_region = s:STATE_LOWER_EGYPT
+					has_building = building_jinzita
+				}
+				add_modifier = {
+					name = wic_wonder_jinzita_profit
+					days = normal_modifier_time
+				}
+			}
+		}
+	}
+
+	weight = 900
+}
+
+je_wic_doushouchang = {
+	icon = "gfx/interface/icons/building_icons/doushouchang.dds"
+	group = je_group_wic_wonders
+
+	is_shown_when_inactive = {
+		any_scope_state = {
+			state_region = s:STATE_LAZIO
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_LAZIO
+		}
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_wic_doushouchang_status_building
+				trigger = {
+					any_scope_state = {
+						state_region = s:STATE_LAZIO
+						any_scope_building = {
+							is_building_type = building_doushouchang
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = je_wic_doushouchang_status_none
+				trigger = { always = yes }
+			}
+		}
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = je_wic_doushouchang_complete_tt
+			any_scope_state = {
+				state_region = s:STATE_LAZIO
+				has_building = building_doushouchang
+			}
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = wic_wonders.3
+			days = 0
+			popup = yes
+		}
+	}
+
+	invalid = {
+		NOT = {
+			any_scope_state = {
+				state_region = s:STATE_LAZIO
+			}
+		}
+	}
+
+	fail = {
+		custom_tooltip = {
+			text = je_wic_doushouchang_fail_tt
+			NOT = {
+				any_scope_state = {
+					state_region = s:STATE_LAZIO
+					has_building = building_doushouchang
+				}
+			}
+			s:STATE_LAZIO = {
+				any_scope_state = {
+					has_building = building_doushouchang
+				}
+			}
+		}
+	}
+
+	on_fail = {
+		trigger_event = {
+			id = wic_wonders_fail.3
+			days = 0
+			popup = yes
+		}
+	}
+
+	event_outcome_failed_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_wic_doushouchang_failed
+			}
+		}
+	}
+
+	event_outcome_failed_effect_desc = {
+		header = wic_wonders_fail.shared
+		effect = {
+			add_modifier = {
+				name = wic_wonder_lost_race
+				days = moderately_long_modifier_time
+			}
+		}
+	}
+
+
+	event_outcome_completed_effect_desc = {
+		header = wic_wonders.shared.a
+		effect = {
+			add_modifier = {
+				name = wic_wonder_doushouchang_glory
+				days = normal_modifier_time
+			}
+		}
+	}
+
+	event_outcome_completed_effect_desc = {
+		header = wic_wonders.shared.b
+		effect = {
+			add_treasury = 35000
+			random_scope_state = {
+				limit = {
+					state_region = s:STATE_LAZIO
+					has_building = building_doushouchang
+				}
+				add_modifier = {
+					name = wic_wonder_doushouchang_profit
+					days = normal_modifier_time
+				}
+			}
+		}
+	}
+
+	weight = 900
+}
+
+je_wic_luershangu = {
+	icon = "gfx/interface/icons/building_icons/luershangu.dds"
+	group = je_group_wic_wonders
+
+	is_shown_when_inactive = {
+		any_scope_state = {
+			state_region = s:STATE_HESSE
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_HESSE
+		}
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_wic_luershangu_status_building
+				trigger = {
+					any_scope_state = {
+						state_region = s:STATE_HESSE
+						any_scope_building = {
+							is_building_type = building_luershangu
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = je_wic_luershangu_status_none
+				trigger = { always = yes }
+			}
+		}
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = je_wic_luershangu_complete_tt
+			any_scope_state = {
+				state_region = s:STATE_HESSE
+				has_building = building_luershangu
+			}
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = wic_wonders.4
+			days = 0
+			popup = yes
+		}
+	}
+
+	invalid = {
+		NOT = {
+			any_scope_state = {
+				state_region = s:STATE_HESSE
+			}
+		}
+	}
+
+	fail = {
+		custom_tooltip = {
+			text = je_wic_luershangu_fail_tt
+			NOT = {
+				any_scope_state = {
+					state_region = s:STATE_HESSE
+					has_building = building_luershangu
+				}
+			}
+			s:STATE_HESSE = {
+				any_scope_state = {
+					has_building = building_luershangu
+				}
+			}
+		}
+	}
+
+	on_fail = {
+		trigger_event = {
+			id = wic_wonders_fail.4
+			days = 0
+			popup = yes
+		}
+	}
+
+	event_outcome_failed_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_wic_luershangu_failed
+			}
+		}
+	}
+
+	event_outcome_failed_effect_desc = {
+		header = wic_wonders_fail.shared
+		effect = {
+			add_modifier = {
+				name = wic_wonder_lost_race
+				days = moderately_long_modifier_time
+			}
+		}
+	}
+
+
+	event_outcome_completed_effect_desc = {
+		header = wic_wonders.shared.a
+		effect = {
+			add_modifier = {
+				name = wic_wonder_luershangu_glory
+				days = normal_modifier_time
+			}
+		}
+	}
+
+	event_outcome_completed_effect_desc = {
+		header = wic_wonders.shared.b
+		effect = {
+			add_treasury = 20000
+			add_modifier = {
+				name = wic_wonder_luershangu_profit
+				days = normal_modifier_time
+			}
+		}
+	}
+
+	weight = 900
+}
+
+je_wic_xinigejvyuan = {
+	icon = "gfx/interface/icons/building_icons/xinigejvyuan.dds"
+	group = je_group_wic_wonders
+
+	is_shown_when_inactive = {
+		any_scope_state = {
+			state_region = s:STATE_NEW_SOUTH_WALES
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_NEW_SOUTH_WALES
+		}
+	}
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_wic_xinigejvyuan_status_building
+				trigger = {
+					any_scope_state = {
+						state_region = s:STATE_NEW_SOUTH_WALES
+						any_scope_building = {
+							is_building_type = building_xinigejvyuan
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = je_wic_xinigejvyuan_status_none
+				trigger = { always = yes }
+			}
+		}
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = je_wic_xinigejvyuan_complete_tt
+			any_scope_state = {
+				state_region = s:STATE_NEW_SOUTH_WALES
+				has_building = building_xinigejvyuan
+			}
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = wic_wonders.5
+			days = 0
+			popup = yes
+		}
+	}
+
+	invalid = {
+		NOT = {
+			any_scope_state = {
+				state_region = s:STATE_NEW_SOUTH_WALES
+			}
+		}
+	}
+
+	fail = {
+		custom_tooltip = {
+			text = je_wic_xinigejvyuan_fail_tt
+			NOT = {
+				any_scope_state = {
+					state_region = s:STATE_NEW_SOUTH_WALES
+					has_building = building_xinigejvyuan
+				}
+			}
+			s:STATE_NEW_SOUTH_WALES = {
+				any_scope_state = {
+					has_building = building_xinigejvyuan
+				}
+			}
+		}
+	}
+
+	on_fail = {
+		trigger_event = {
+			id = wic_wonders_fail.5
+			days = 0
+			popup = yes
+		}
+	}
+
+	event_outcome_failed_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_wic_xinigejvyuan_failed
+			}
+		}
+	}
+
+	event_outcome_failed_effect_desc = {
+		header = wic_wonders_fail.shared
+		effect = {
+			add_modifier = {
+				name = wic_wonder_lost_race
+				days = moderately_long_modifier_time
+			}
+		}
+	}
+
+
+	event_outcome_completed_effect_desc = {
+		header = wic_wonders.shared.a
+		effect = {
+			add_modifier = {
+				name = wic_wonder_xinigejvyuan_glory
+				days = normal_modifier_time
+			}
+		}
+	}
+
+	event_outcome_completed_effect_desc = {
+		header = wic_wonders.shared.b
+		effect = {
+			add_treasury = 25000
+			add_modifier = {
+				name = wic_wonder_xinigejvyuan_profit
+				days = normal_modifier_time
+			}
+		}
+	}
+
+	weight = 900
+}

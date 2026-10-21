@@ -1,0 +1,100 @@
+﻿l_turkish:
+ building_aerhanbula: "El Hamra Sarayı"
+ building_wnsjunxieku: "Venedik Tersanesi"
+ building_xiuishenmiao: "Huey Teocalli"
+ building_dajinbabuwei: "Büyük Zimbabwe"
+ building_jinzita: "Büyük Piramit"
+ building_dayuchang: "Büyük Banyo"
+ building_boergeershan: "Cebel Barkal"
+ building_doushouchang: "Kolezyum"
+ building_jierwa: "Kilwa Kisiwani"
+ building_sangkelei: "Sankore Üniversitesi"
+ building_beilunta: "Belém Kulesi"
+ building_xiyindujiaoyisuo: "Casa de Contratación"
+ building_luershangu: "Ruhr Vadisi"
+ building_shenmixieershan: "Mont-Saint-Michel"
+ building_xiongyali: "Országház"
+ building_bailaohui: "Broadway"
+ building_xinigejvyuan: "Sydney Opera Binası"
+
+
+ pmg_base_building_aerhanbula: "El Hamra Sarayı"
+ pm_default_building_aerhanbula: "El Hamra Sarayı"
+ pmg_base_building_wnsjunxieku: "Venedik Tersanesi"
+ pm_default_building_wnsjunxieku: "Venedik Tersanesi"
+ pmg_base_building_xiuishenmiao: "Huey Teocalli"
+ pm_default_building_xiuishenmiao: "Huey Teocalli"
+ pmg_base_building_dajinbabuwei: "Büyük Zimbabwe"
+ pm_default_building_dajinbabuwei: "Büyük Zimbabwe"
+ pmg_base_building_jinzita: "Büyük Piramit"
+ pm_default_building_jinzita: "Büyük Piramit"
+ pmg_base_building_dayuchang: "Büyük Banyo"
+ pm_default_building_dayuchang: "Büyük Banyo"
+ pmg_base_building_boergeershan: "Cebel Barkal"
+ pm_default_building_boergeershan: "Cebel Barkal"
+ pmg_base_building_doushouchang: "Kolezyum"
+ pm_default_building_doushouchang: "Kolezyum"
+ pmg_base_building_jierwa: "Kilwa Kisiwani"
+ pm_default_building_jierwa: "Kilwa Kisiwani"
+ pmg_base_building_sangkelei: "Sankore Üniversitesi"
+ pm_default_building_sangkelei: "Sankore Üniversitesi"
+ pmg_base_building_beilunta: "Belém Kulesi"
+ pm_default_building_beilunta: "Belém Kulesi"
+ pmg_base_building_xiyindujiaoyisuo: "Casa de Contratación"
+ pm_default_building_xiyindujiaoyisuo: "Casa de Contratación"
+ pmg_base_building_luershangu: "Ruhr Vadisi"
+ pm_default_building_luershangu: "Ruhr Vadisi"
+ pmg_base_building_shenmixieershan: "Mont-Saint-Michel"
+ pm_default_building_shenmixieershan: "Mont-Saint-Michel"
+ pmg_base_building_xiongyali: "Országház"
+ pm_default_building_xiongyali: "Országház"
+ pmg_base_building_bailaohui: "Broadway"
+ pm_default_building_bailaohui: "Broadway"
+ pmg_base_building_xinigejvyuan: "Sydney Opera Binası"
+ pm_default_building_xinigejvyuan: "Sydney Opera Binası"
+
+
+
+
+
+
+
+
+
+
+ building_aifeier: "Eyfel Kulesi"
+ building_wugeku: "Angkor Vat"
+ building_bigben: "Big Ben"
+ building_zijinchen: "Yasak Şehir"
+ building_shensuofeiya: "Ayasofya"
+ building_shenwaxili: "Aziz Vasil Katedrali"
+ building_ziyounvshen: "Özgürlük Anıtı"
+
+ pm_default_building_aifeier: "Eyfel Kulesi"
+ pm_default_building_wugeku: "Angkor Vat"
+ pm_default_building_bigben: "Big Ben"
+ pm_default_building_zijinchen: "Yasak Şehir"
+ pm_default_building_shensuofeiya: "Ayasofya"
+ pm_default_building_shenwaxili: "Aziz Vasil Katedrali"
+ pm_default_building_ziyounvshen: "Özgürlük Anıtı"
+ pm_default_building_jiushijidu: "Kurtarıcı İsa Heykeli"
+
+
+
+
+
+
+
+
+
+ building_hongchang: "Kızıl Meydan"
+ building_tiananmen: "Tiananmen Kapısı"
+ building_zijincheng: "Yasak Şehir"
+ building_donggong: "Kışlık Saray"
+ building_aiertamishi: "Ermitaj Müzesi"
+ building_budala: "Potala Sarayı"
+ building_shenyusuo: "Kâhin"
+ building_binmayong: "Terrakotta Ordusu"
+ building_peitela: "Petra"
+ building_maqiubiqiu: "Machu Picchu"
+ building_qiqinicha: "Chichen Itza"

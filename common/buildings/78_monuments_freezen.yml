@@ -1,0 +1,456 @@
+﻿building_shenyusuo = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/shenyusuo.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_2x2_entity" }
+	entity_constructed = { }
+
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 2
+	}
+
+	production_method_groups = {
+		pmg_base_building_shenyusuo
+	}
+
+	required_construction = construction_cost_monument
+
+	potential = {
+		state_region = s:STATE_ATTICA
+	}
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_binmayong = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/binmayong.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_2x2_entity" }
+	entity_constructed = { }
+
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 2
+	}
+
+	production_method_groups = {
+		pmg_base_building_binmayong
+	}
+	required_construction = construction_cost_monument
+
+	potential = {
+		state_region = s:STATE_XIAN
+	}
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_peitela = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/peitela.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_2x2_entity" }
+	entity_constructed = { }
+
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 2
+	}
+
+	production_method_groups = {
+		pmg_base_building_peitela
+	}
+
+	required_construction = construction_cost_monument
+
+	potential = {
+		state_region = s:STATE_PALESTINE
+	}
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_maqiubiqiu = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/maqiubiqiu.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_2x2_entity" }
+	entity_constructed = { }
+
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 2
+	}
+
+	production_method_groups = {
+		pmg_base_building_maqiubiqiu
+	}
+
+	required_construction = construction_cost_monument
+
+	potential = {
+		state_region = s:STATE_ICA
+	}
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_qiqinicha = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/qiqinicha.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_2x2_entity" }
+
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 2
+	}
+
+	production_method_groups = {
+		pmg_base_building_qiqinicha
+	}
+
+	required_construction = construction_cost_monument
+
+	potential = {
+		state_region = s:STATE_YUCATAN
+	}
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_shenmixieershan = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/shenmixieershan.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_2x2_entity" }
+	entity_constructed = { }
+
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 2
+	}
+
+	production_method_groups = {
+		pmg_base_building_shenmixieershan
+	}
+
+	required_construction = construction_cost_monument
+
+	potential = {
+		state_region = s:STATE_BRITTANY
+	}
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_shensuofeiya = {#原版
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/shensuofeiya.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_2x2_entity" }
+	entity_constructed = { }
+
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 2
+	}
+
+	production_method_groups = {
+		pmg_base_building_shensuofeiya
+	}
+
+	required_construction = construction_cost_monument
+
+	potential = {
+		state_region = s:STATE_EASTERN_THRACE
+	}
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_wugeku = {#原版
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/wugeku.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_2x2_entity" }
+	entity_constructed = { }
+
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 2
+	}
+
+	production_method_groups = {
+		pmg_base_building_wugeku
+	}
+
+	required_construction = construction_cost_monument
+
+	potential = {
+		state_region = s:STATE_CAMBODIA
+	}
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_budala = {#原版
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/budala.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_2x2_entity" }
+	entity_constructed = { }
+
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 2
+	}
+
+	production_method_groups = {
+		pmg_base_building_budala
+	}
+
+	required_construction = construction_cost_monument
+
+	potential = {
+		state_region = s:STATE_LHASA
+	}
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_shenwaxili = {#原版
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/shenwaxili.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_2x2_entity" }
+	entity_constructed = { }
+
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 2
+	}
+
+	production_method_groups = {
+		pmg_base_building_shenwaxili
+	}
+
+	required_construction = construction_cost_monument
+
+	potential = {
+		state_region = s:STATE_MOSCOW
+	}
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_hongchang = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/hongchang.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_2x2_entity" }
+	entity_constructed = { }
+
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 2
+	}
+
+	production_method_groups = {
+		pmg_base_building_hongchang
+	}
+
+	required_construction = construction_cost_monument
+
+	potential = {
+		state_region = s:STATE_MOSCOW
+	}
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_tiananmen = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/tiananmen.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_2x2_entity" }
+	entity_constructed = { }
+
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 2
+	}
+
+	production_method_groups = {
+		pmg_base_building_tiananmen
+	}
+
+	required_construction = construction_cost_monument
+
+	potential = {
+		state_region = s:STATE_BEIJING
+	}
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_donggong = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/donggong.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_2x2_entity" }
+	entity_constructed = { }
+
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 2
+	}
+
+	production_method_groups = {
+		pmg_base_building_donggong
+	}
+
+	required_construction = construction_cost_monument
+
+	potential = {
+		state_region = s:STATE_INGRIA
+	}
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_aiertamishi = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/aiertamishi.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_2x2_entity" }
+	entity_constructed = { }
+
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 2
+	}
+
+	production_method_groups = {
+		pmg_base_building_aiertamishi
+	}
+
+	required_construction = construction_cost_monument
+
+	potential = {
+		state_region = s:STATE_INGRIA
+	}
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_bigben = {#原版
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/bigben.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_2x2_entity" }
+	entity_constructed = { }
+
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 2
+	}
+
+	production_method_groups = {
+		pmg_base_building_bigben
+	}
+
+	required_construction = construction_cost_monument
+
+	potential = {
+		state_region = s:STATE_HOME_COUNTIES
+	}
+
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+
+
+
+
+
+
